@@ -1,0 +1,16 @@
+// prettier-ignore
+
+@import
+  // Fonts
+  "fonts/open-sans",
+  
+  // Override default styles
+  "override",
+
+  // Strapped classes
+  "strap/flexbox",
+  "strap/misc",
+
+  // Pages
+  "pages/home",
+  "pages/not-found";
