@@ -1,5 +1,13 @@
 /* Overrides default styles and adds sensible elements to certain tags */
 
+:root {
+  --black: #333;
+  --primary: #97d700;
+  --secondary: #ff9d6e;
+  --warning: #daaa00;
+  --danger: #ff6d6a;
+}
+
 *,
 *::before,
 *::after {
@@ -7,7 +15,8 @@
   font-family: "Open Sans", sans-serif;
 }
 
-body {
+body,
+p {
   margin: 0;
 }
 
@@ -28,4 +37,9 @@ a {
 button {
   font-size: 1em;
   cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
