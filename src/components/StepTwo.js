@@ -88,14 +88,14 @@ const StepTwo = ({ type, setStep }) => {
           </label>
         </div>
         <div className="r-flex justify-between">
-          {type === "c" && (
-            <button
-              className="btn warning mt50"
-              onClick={() => setClientType(undefined)}
-            >
-              Whoops, go back
-            </button>
-          )}
+          <button
+            className="btn warning mt50"
+            onClick={() =>
+              type === "c" ? setClientType(undefined) : setStep(1)
+            }
+          >
+            Whoops, go back
+          </button>
           <button
             className={`btn ${checked ? "primary" : "disabled"} mt50`}
             onClick={() => (checked ? setStep(3) : null)}
