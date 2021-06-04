@@ -1,17 +1,12 @@
 // prettier-ignore
 
-@import
-  // Fonts
-  "fonts/open-sans",
-  
-  // Override default styles
-  "override",
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import // Override default styles
+  "override",
   // Strapped classes
   "strap/flexbox",
-  "strap/misc",
-  "strap/text",
-
+  "strap/misc", "strap/text",
   // Pages
   "pages/home",
   "pages/not-found";

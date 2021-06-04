@@ -4,5 +4,10 @@
     font-size: 15em;
     color: #e40b20;
     margin-top: 20vh;
+    cursor: default;
+
+    &::selection {
+      background: none;
+    }
   }
 }
